@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Pretendard-Regular';
+}
+nav {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    height: 100px;
+    /* background-color: #00000050; */
+    padding-left: 120px;
+    padding-right: 120px;
+
+}
+
+.navItem {
+    /* 레이아웃에 대한 스타일 */
+
+    /*텍스트 스타일*/
+    font-size: 20px;
+    font-weight: 700; /* bold = 700 */
+    font-family: Pretendard;
+    
+    line-height:1.5; /* 150%*/
+    letter-spacing: -0.2px; /* 글자 간격 */
+    padding: 10px;
+    
+}
+
+/* div {
+    text-transform: uppercase;
+} */
+
+.badge {
+
+    padding: 12px 24px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* gap: 10px; */
+    
+    border-radius: 10px;
+    background: #E6EEFF;
+    width: fit-content;
+
+    color: #000;
+    font-family: Pretendard;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 36px */
+
+    margin-bottom: 40px;
+}
+header {
+    display: flex;
+    padding: 100px 120px;
+    flex-direction: column;
+    gap: 10px;
+}
+
+header h1{
+    color: #333;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%; /* 80px */
+    letter-spacing: -1.28px;
+
+    
+
+}
+
+header h1 em{
+    background: linear-gradient(99deg, #001F8F 3.58%, rgba(36, 255, 203, 0.50) 90.34%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.headerLinkContainer{
+    display: flex;
+    gap: 16px;
+}
+
+.headerLink{
+    padding: 24px 40px;
+    flex-direction: column;
+    justify-content: center;
+    display: block;
+    align-items: center;
+
+    border-radius: 16px;
+    border: 4px solid #403930;
+
+    font-family: Pretendard;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 36px */
+    text-decoration-line: none;
+
+}
+
+.githubLink{
+    background: #000;
+    color: #E6EEFF;
+}
+
+.resumeLink{
+    color: #000;
+}
