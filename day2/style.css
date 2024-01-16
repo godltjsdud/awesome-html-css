@@ -37,6 +37,11 @@ nav {
     text-transform: uppercase;
 } */
 
+.title {
+    display: inline-block;
+}
+
+
 .badge {
 
     padding: 12px 24px;
@@ -64,24 +69,39 @@ header {
     gap: 10px;
 }
 
-header h1{
+header div{
+    display: inline-block;
     color: #333;
     font-size: 64px;
     font-style: normal;
     font-weight: 600;
     line-height: 125%; /* 80px */
     letter-spacing: -1.28px;
-
-    
-
 }
 
-header h1 em{
+header div em{
     background: linear-gradient(99deg, #001F8F 3.58%, rgba(36, 255, 203, 0.50) 90.34%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.imageContainer {
+    /* padding-left: 300px; */
+    float : right;
+}
+
+.profileImg{
+    /* border: 10px solid #BCF2F9; */
+    border-radius: 100%;
+    background-image: url('./img/블루.jpg');
+    width:300px;
+    height:300px;
+    background-position: center 12%;
+    background-size:110%;
+}
+
+
 
 .headerLinkContainer{
     display: flex;
