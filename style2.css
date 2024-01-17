@@ -1,0 +1,101 @@
+/* For screens smaller than 768px (typical smartphones) */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    nav {
+        flex-direction: column; /* 화면이 작아지면 세로 방향으로 정렬 */
+        height: auto; /* 높이를 자동으로 조절하여 모든 아이템이 보이도록 함 */
+        padding: 10px;
+        
+    }
+
+    .navItem {
+        font-size: 30px; /* 작은 화면 크기에 맞게 폰트 크기 조절 */
+    }
+
+    header {
+        padding: 50px 20px;
+    }
+
+    .badge {
+        align-self: center;
+        font-size: 18px;
+        padding: 10px 20px;
+        margin-bottom: 20px;
+    }
+
+    header div {
+        font-size: 36px;
+        line-height: 100%;
+    }
+
+    .imageContainer {
+        padding: 10px 0;
+        float: none;
+    }
+
+    .profileImg {
+        width: 200px;
+        height: 200px;
+    }
+
+    .headerLinkContainer {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .headerLink {
+        padding: 12px 20px;
+        font-size: 18px;
+    }
+
+    .aboutMe {
+        padding: 80px 20px;
+    }
+
+    .aboutMe h2 {
+        font-size: 28px;
+        line-height: 125%;
+    }
+
+    .aboutMe p {
+        font-size: 16px;
+        line-height: 150%;
+    }
+
+    .flyingPerson {
+        display: none;
+        width: 80px;
+        height: 80px;
+        left: 100px;
+        bottom: 28px;
+    }
+
+    .skillStackContainer {
+        padding: 50px 20px;
+    }
+
+    .skillStack h2 {
+        font-size: 28px;
+        line-height: 20px;
+    }
+
+    .skillStack p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .stackImage {
+        display: flex;
+        flex-direction: column; /* 이미지를 세로로 정렬합니다 */
+        align-items: center; /* 이미지를 가로 가운데 정렬합니다 */
+        padding-top: 80px;
+    }
+    
+    .stackImage img {
+        height: 100px;
+        margin-bottom: 20px; /* 이미지 사이에 간격을 줍니다 */
+    }
+}
