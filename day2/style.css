@@ -55,16 +55,13 @@ header .badge {
     border-radius: 10px;
     background: #E6EEFF;
     width: fit-content;
-
-    color: #000;
-    font-family: Pretendard;
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
     line-height: 150%; /* 36px */
-
     margin-bottom: 40px;
 }
+
 header {
     display: flex;
     padding: 100px 120px;

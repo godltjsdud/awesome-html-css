@@ -20,7 +20,7 @@
     }
 
     .badge {
-        align-self: center;
+        /* align-self: center; */
         font-size: 18px;
         padding: 10px 20px;
         margin-bottom: 20px;
@@ -31,13 +31,17 @@
         line-height: 100%;
     }
 
+/*    
     .titleContainer {
         display: flex;
-        align-items: center; /* 세로 가운데 정렬 */
-        justify-content: center; /* 가로 가운데 정렬 추가 */
-        text-align: center; /* 페이지가 줄어들 때 가운데 정렬 */
+        align-items: center; 
+        justify-content: center; 
+        text-align: center; 
+    } 
+*/
+    .nameContainer{
+        padding-bottom:30px;
     }
-    
 
     .imageContainer {
         padding: 10px 10px;
@@ -45,6 +49,7 @@
     }
 
     .profileImg {
+        display: none;
         width: 200px;
         height: 200px;
     }
