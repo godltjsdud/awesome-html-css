@@ -5,14 +5,13 @@
     }
 
     nav {
-        flex-direction: column; /* 화면이 작아지면 세로 방향으로 정렬 */
+        padding:10px;
         height: auto; /* 높이를 자동으로 조절하여 모든 아이템이 보이도록 함 */
-        padding: 10px;
         
     }
 
     .navItem {
-        font-size: 30px; /* 작은 화면 크기에 맞게 폰트 크기 조절 */
+        font-size:100%; /* 작은 화면 크기에 맞게 폰트 크기 조절 */
     }
 
     header {
@@ -110,5 +109,22 @@
     .stackImage img {
         height: 100px;
         margin-bottom: 20px; /* 이미지 사이에 간격을 줍니다 */
+    }
+}
+
+@media (max-width: 410px) {
+    body {
+        font-size: 14px;
+    }
+
+    nav {
+        flex-direction: column; /* 화면이 작아지면 세로 방향으로 정렬 */
+        height: auto; /* 높이를 자동으로 조절하여 모든 아이템이 보이도록 함 */
+        padding: 10px;
+        
+    }
+
+    .navItem {
+        font-size:100%; /* 작은 화면 크기에 맞게 폰트 크기 조절 */
     }
 }
