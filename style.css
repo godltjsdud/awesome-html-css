@@ -89,6 +89,7 @@ header div em{
 
 .profileImg{
     /* border: 10px solid #BCF2F9; */
+    align-self: center;
     border-radius: 100%;
     background-image: url('./img/profile.jpg');
     width:300px;
