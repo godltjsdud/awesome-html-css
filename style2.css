@@ -100,15 +100,14 @@
     }
 
     .stackImage {
-        display: flex;
-        flex-direction: column; /* 이미지를 세로로 정렬합니다 */
-        align-items: center; /* 이미지를 가로 가운데 정렬합니다 */
-        padding-top: 80px;
+        flex-wrap: wrap; /* 줄바꿈이 가능하도록 설정 */
+        justify-content: center; /* 가로 중앙 정렬 */
     }
-    
+
     .stackImage img {
-        height: 100px;
-        margin-bottom: 20px; /* 이미지 사이에 간격을 줍니다 */
+        width: 30%; /* 2개씩 정렬되도록 너비 조절 */
+        height: 30%;
+        margin: 1%; /* 이미지 간 간격을 위해 margin 추가 */
     }
 }
 
@@ -126,5 +125,11 @@
 
     .navItem {
         font-size:100%; /* 작은 화면 크기에 맞게 폰트 크기 조절 */
+    }
+
+    .stackImage img {
+        width: 40%; /* 2개씩 정렬되도록 너비 조절 */
+        height: 40%;
+        margin: 1%; /* 이미지 간 간격을 위해 margin 추가 */
     }
 }
