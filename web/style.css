@@ -275,9 +275,11 @@ header div em{
 }
 
 .projectImgContainer img{
-    height: 350px;
+    height: auto;
+    width:23%;
     margin: 0 10px;
     border-radius: 16.08px;
-    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.15);    
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.15);
+    
 }
 

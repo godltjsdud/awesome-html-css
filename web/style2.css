@@ -115,6 +115,14 @@
         padding: 40px 20px; /* padding을 작게 조절 */
     }
 
+    .projectContainer h2{
+        margin-left: 20px;
+        color: #403930;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 125%; /* 50px */
+    }
+
     .project {
         flex-direction:column-reverse; /* 화면이 작아지면 세로로 정렬 */
     }
@@ -124,17 +132,25 @@
         width: 100%; /* 100%로 설정하여 세로 정렬 */
     }
 
-    .projectImgContainer {
-        padding: 20px 0; /* 이미지 간 간격 조절 */
-    }
 
     .projectTitle {
         font-size: 28px; /* 작은 화면 크기에 맞게 폰트 크기 조절 */
-        padding: 20px;
+        padding-left: 30px;
+        
     }
 
     .projectExplanation{
-        padding: 20px;
+        padding: 30px;
+    }
+
+    .projectLink{
+        padding-left: 30px;
+
+        color: #00446A;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 150%; /* 30px */
+        text-decoration-line: underline;
     }
 
     .projectImgContainer img {
